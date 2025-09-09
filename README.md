@@ -61,6 +61,8 @@ If `AndroidTTS` is assigned in the inspector, responses will be spoken aloud. To
 
 ```csharp
 client.SendPrompt("Describe this image of a robot in a forest.");
+```
+
 
 📦 Requirements
 Unity 2021+
