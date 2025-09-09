@@ -2,7 +2,7 @@
 
 # 🧠 QuestLLaVAClient: Unity WebSocket Client for LLaVA
 
-This Unity project provides a WebSocket-based client for interacting with a [LLaVA](https://llava-vl.github.io/) server — a multimodal language model capable of processing text and images. Designed for use in VR/AR or mobile environments (e.g., Meta Quest), it enables real-time prompt submission and response handling, with optional image input and TTS playback.
+This Unity project provides a WebSocket-based client for interacting with a [LLaVA](https://llava-vl.github.io/) server — a multimodal language model capable of processing text and images. Designed for use in VR/AR or mobile environments (e.g., Meta Quest), it enables real-time prompt submission and response handling, with optional image input and online TTS playback(WIt.ai).
 
 ---
 
