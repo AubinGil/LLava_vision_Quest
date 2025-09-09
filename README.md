@@ -2,7 +2,7 @@
 
 # 🧠 QuestLLaVAClient: Unity WebSocket Client for LLaVA
 
-This Unity project provides a WebSocket-based client for interacting with a [LLaVA](https://llava-vl.github.io/) server — a multimodal language model capable of processing text and images. Designed for use in VR/AR or mobile environments (e.g., Meta Quest), it enables real-time prompt submission and response handling, with optional image input and online TTS playback(WIt.ai).
+This Unity project provides a WebSocket-based client for interacting with a [LLaVA](https://llava-vl.github.io/) server — a multimodal language model capable of processing text and images. Designed for use in VR/AR or mobile environments (e.g., Meta Quest), it enables real-time prompt submission and response handling, with optional image input and online TTS playback(WIt.ai). Possibility for integrating turn click prompting .
 
 ---
 
@@ -119,6 +119,11 @@ This project implements a lightweight WebSocket server in C# that accepts multim
      "temperature": 0.3,
      "max_tokens": 256
    }
+
+## Improvements
+Include Speech commands
+fix On device TTS
+
 
 ## 📜 Attribution
 Portions of this project’s camera overlay logic were adapted from Meta’s PassthroughCameraApiSamples, specifically the CameraToWorldManager component included in the Meta XR PCSA Mixed Reality Starter Samples.
