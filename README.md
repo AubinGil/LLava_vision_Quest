@@ -91,3 +91,34 @@ Let me know if you want to add setup instructions, screenshots, or usage demos. 
 <img width="877" height="1235" alt="image" src="https://github.com/user-attachments/assets/c5d2e9c5-45cc-4987-9fa3-70f34d0da98c" />
 
 
+# 🧠 LLaVA WebSocket Server with KokoroSharp TTS
+
+This project implements a lightweight WebSocket server in C# that accepts multimodal prompts (text + optional image), forwards them to a local LLM (e.g., llama.cpp or LLaVA), and optionally returns synthesized speech using [KokoroSharp](https://github.com/Lyrcaxis/KokoroSharp) — a fast, local text-to-speech engine.
+
+---
+
+## 🚀 Features
+
+- 🌐 WebSocket endpoint `/llava` for real-time prompt exchange
+- 🖼️ Supports image + text input via binary WebSocket frames
+- 🔁 Forwards prompts to a local LLM server (`/v1/chat/completions`)
+- 🔊 Optional TTS synthesis via KokoroSharp or macOS `say`
+- 📦 HTTP endpoint `/tts` for direct text-to-speech conversion
+- 🔔 `/ping` and `/beep` endpoints for diagnostics and testing
+- 🧠 Uses reflection to dynamically load KokoroSharp without hard dependencies
+
+---
+
+## 📡 WebSocket Flow (`/llava`)
+
+1. **Client connects** and sends a JSON header:
+   ```json
+   {
+     "prompt": "Describe this image",
+     "image_len": 123456,
+     "temperature": 0.3,
+     "max_tokens": 256
+   }
+
+
+
