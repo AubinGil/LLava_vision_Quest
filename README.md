@@ -120,7 +120,7 @@ This project implements a lightweight WebSocket server in C# that accepts multim
      "max_tokens": 256
    }
 
-📜 Attribution
+## 📜 Attribution
 Portions of this project’s camera overlay logic were adapted from Meta’s PassthroughCameraApiSamples, specifically the CameraToWorldManager component included in the Meta XR PCSA Mixed Reality Starter Samples.
 Original samples © Meta Platforms, Inc. and affiliates. Used under the terms of the Meta SDK license.
 All other code, including the QuestLLaVAClient and multimodal integration, is original and authored by Gildas.
