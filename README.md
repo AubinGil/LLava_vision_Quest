@@ -121,9 +121,9 @@ This project implements a lightweight WebSocket server in C# that accepts multim
    }
 
 ## Improvements
-Fix Turn click prompting using meta joystick.
-fix On device TTS
-Include Speech commands( On device ASR)
+1. Fix Turn click prompting using meta joystick.
+2. fix On device TTS
+3. Include Speech commands( On device ASR)
 
 ## 📜 Attribution
 Portions of this project’s camera overlay logic were adapted from Meta’s PassthroughCameraApiSamples, specifically the CameraToWorldManager component included in the Meta XR PCSA Mixed Reality Starter Samples.
