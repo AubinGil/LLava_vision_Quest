@@ -60,7 +60,7 @@ If `AndroidTTS` is assigned in the inspector, responses will be spoken aloud. To
 ## 🧪 Example Prompt
 
 ```csharp
-client.SendPrompt("Describe this image of a robot in a forest.");
+client.SendPrompt("Describe this image");
 ```
 
 
