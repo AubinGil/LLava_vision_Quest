@@ -1,4 +1,4 @@
-# LLava_vision_Quest
+# Scene narration with Metaquest3
 
 # 🧠 QuestLLaVAClient: Unity WebSocket Client for LLaVA
 
